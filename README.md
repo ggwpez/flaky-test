@@ -21,7 +21,7 @@ RUST_LOG=info flaky-test \
 
 Shows us that it indeed fails:
 
-![Example](./.assets/example.png)
+![Example](./.assets/screenshot_example.png)
 
 Now you can take a look at the stacktrace file, or start a debugger and attach it to the printed PID.
 
