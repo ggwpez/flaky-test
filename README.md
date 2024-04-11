@@ -23,7 +23,8 @@ Shows us that it indeed fails:
 
 ![Example](./.assets/screenshot_example.png)
 
-Now you can take a look at the stacktrace file, or start a debugger and attach it to the printed PID. Traces look like [this](./.assets/stacktrace_example.txt).
+Now you can take a look at the stacktrace file, or start a debugger and attach it to the printed PID. Traces look like [this](./.assets/stacktrace_example.txt).  
+Attaching lldb can be done with `lldb attach -p ...`.
 
 ## License
 
