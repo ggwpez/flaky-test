@@ -2,8 +2,10 @@
 name = "flaky-test"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = [ "Oliver Tale-Yazdi" ]
+description = "Detect and investigate unreliable Rust tests."
+license = "GPL-3.0-only"
+repository = "https://github.com/ggwpez/flaky-test"
 
 [dependencies]
 anyhow = "1.0.82"
