@@ -24,3 +24,7 @@ Shows us that it indeed fails:
 ![Example](./.assets/example.png)
 
 Now you can take a look at the stacktrace file, or start a debugger and attach it to the printed PID.
+
+## License
+
+GPLv3 only as per [LICENSE](./LICENSE).
