@@ -16,10 +16,10 @@ Investigating the `voter_persists_its_votes` test of the `sc-consensus-grandpa` 
 RUST_LOG=info flaky-test \
 	--manifest-path ../polkadot-sdk \
 	-p sc-consensus-grandpa voter_persists_its_votes \
-	--timeout 120 --batch 100 --reps 10
+	--timeout 120 --batch 10 --reps 10
 ```
 
-Shows us that it indeed fails:
+Shows us that it indeed fails. Otherwise increase the `batch` size. With >100 it should reliably fail:
 
 ![Example](./.assets/screenshot_example.png)
 
