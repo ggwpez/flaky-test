@@ -23,7 +23,7 @@ Shows us that it indeed fails:
 
 ![Example](./.assets/screenshot_example.png)
 
-Now you can take a look at the stacktrace file, or start a debugger and attach it to the printed PID.
+Now you can take a look at the stacktrace file, or start a debugger and attach it to the printed PID. Traces look like [this](./.assets/stacktrace_example.txt).
 
 ## License
 
